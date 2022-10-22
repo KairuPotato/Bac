@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"  crossorigin="anonymous">
+	<script src="jaba.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="design.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Blower & Cut</title>
+</head>
+<body style="background-image: url(salonbg.jpg); font-family:Arial, sans-serif;">
+	<div style="text-align: center;">
+		<u style="color: red;"><h1 style="color: white; font-size: 70px; margin-bottom: 0px;">Blower & Cut</h1></u>
+		<h3 style="color: white;margin-top: 0px;font-size: 30px;">House of Beauty Salon</h3>	
+	</div>
+	<div class="flex-container">
+		<div class="flex-child" style="background: black; text-align: center; width: 49%;">
+			<h1 style="color: yellow; font-size: 58px; margin-bottom: 0px;"> Grand Opening</h1>
+			<h1 style="color: white;margin-top: 0px;">October 20, 2022</h1>
+			<br>
+			<ul style="font-size: 30px; text-align: left;">
+				<li style="color: white;"> Classic Rebond<span style="color:red;">&emsp;&emsp;-499 pesos</span></li>
+				<br>
+				<li style="color: white;"> Brazilian Blow Out<span style="color:red;">&emsp;-499 pesos</span></li>
+				<br>
+				<li style="color: white;"> Color & Brazilian<span style="color:red;">&emsp;&emsp;-998 pesos</span></li>
+				<br>
+				<li style="color: white;"> Rebond/Brazilian <br>& Hair Color<span style="color:red;">&emsp;&emsp;&emsp;&emsp;-1,499 pesos</span></li>
+			</ul>
+			<br>
+			<h1 style="color: yellow; font-size: 22px;">(Any Lenght/ No Hidden Charges)</h1>
+			<h1 style="color: yellow; font-size: 18px;">(Promo Rebonding is not applicable to all hair types)</h1>
+		</div>
+		<div class="flex-child" style="background: black;">
+			<img src="haluwiin.jpg" width="100%;">
+			<p style="color: white; margin-left: 40px; margin-right: 40px; font-size:18px;">
+									Try mong magparebond kay Dracula, or Iteatment ka ni <br>
+									white lady, Gusto mo ba magupitan ni joker? pasyal kayo sa <br>
+									aming salon at ma experiance ang nakakakilabot na Halloween costume	ng aming mga staff <br>
+									See you everyone!!! </p>
+			<br>
+			<p style="color:darkred; text-align: center; font-size:25px;">Ongoing promo parin kami</p>
+		</div>
+	</div>	
+	<br>
+	<br>
+	<div style="text-align: center; background: black;">
+		<h1 style="color: yellow;">Ongoing Promos!!!</h1>
+	</div>	
+	<div class="container text-center my-3">
+    <div class="row mx-auto my-auto justify-content-center">
+        <div id="recipeCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="c1.jpg" class="img-fluid">
+                            </div>
+                            <div class="card-img-overlay">Slide 1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="c2.jpg" class="img-fluid">
+                            </div>
+                            <div class="card-img-overlay">Slide 2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="c3.jpg" class="img-fluid">
+                            </div>
+                            <div class="card-img-overlay">Slide 3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="c4.jpg" class="img-fluid">
+                            </div>
+                            <div class="card-img-overlay">Slide 4</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="col-md-3">
+                        <div class="card">
+                            <div class="card-img">
+                                <img src="c5.jpg" class="img-fluid">
+                            </div>
+                            <div class="card-img-overlay">Slide 5</div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+            
+            <input type="button" id="myButton" value="prev" onclick=" $('#recipeCarousel').carousel('prev');"/>	
+            <input type="button" id="myButton" value="next" onclick=" $('#recipeCarousel').carousel('next');"/>	
+            
+        </div>
+    </div>
+</div>
+<footer style="background:black; margin: 0;">
+  <p style="color:white;">Branches</p>
+
+  <p style="color:white;">Juan Luna St. Sto Cristo Tarlac City<br>
+Cor. F.Tañedo Tarlac City<br>
+- Gilid ng Puregold Tarlac<br>
+- Likod ng Jollibee F. Tañedo</p>
+  <p style="color:white;"> link- <a href="https://www.google.com.ph/maps/place/Blower+%26+Cut+House+Of+Beauty+Salon/@15.4877399,120.5901677,17.5z/data=!4m12!1m6!3m5!1s0x3396c622490febaf:0x34ae65e3356760b2!2sBlower+%26+Cut!8m2!3d15.4940124!4d120.5945224!3m4!1s0x0:0xb26f74cc7fef1ae2!8m2!3d15.4880431!4d120.5895423">Juan Luna St. Sto Cristo Tarlac City Cor. F.Tañedo Tarlac City Main Branch</a></p>
+
+  <p style="color:white;">Espinosa St. F.Tañedo Tarlac City<br>
+- Gilid ng plaza ng Tarlac<br>
+- Katabi ng : Botica Sto Cristo</p>
+  <p style="color:white;"> link- <a href="https://www.google.com.ph/maps/place/Blower+%26+Cut/@15.4940124,120.5923284,17z/data=!3m1!4b1!4m5!3m4!1s0x3396c622490febaf:0x34ae65e3356760b2!8m2!3d15.4940124!4d120.5945224">Espinosa St. F.Tañedo Tarlac City 2nd Branch</a></p>
+
+  <br><br>
+  <p style="color:white">For more info please contact</p>
+  <p style="color:white">Joel Ramos Cano - 09395001455</p>	
+ <p style="color:white">Dave Rafael Canoy - 09567929129</p>
+
+
+
+</footer>
+
+</body>
+
+
+<script>
+let itemss = document.querySelectorAll('.carousel .carousel-item')
+
+itemss.forEach((el) => {
+    const minPerSlide = 4
+    let next = el.nextElementSibling
+    for (var i=1; i<minPerSlide; i++) {
+        if (!next) {
+            // wrap carousel by using first child
+            next = itemss[0]
+        }
+        let cloneChild = next.cloneNode(true)
+        el.appendChild(cloneChild.children[0])
+        next = next.nextElementSibling
+    }
+})
+
+
+</script>
+
+
+
+
+</html>
+
